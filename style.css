@@ -60,3 +60,19 @@ ul{
     padding: 30px;
     margin: 40px;
 }
+/* responsive for mobile device */
+@media screen and (max-width: 576px) {
+    .header{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column;
+    }
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    margin: 100px;
+}
