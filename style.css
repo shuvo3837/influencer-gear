@@ -90,6 +90,36 @@ ul{
         margin: 10px;
     }
 }
+
+/* popular collection style */
+.popular-collection{
+    background-color: rgb(209, 204, 204);
+    margin: 60px;
+}
+.popular-collection h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px;
+}
+.collection-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+}
+.card img{
+    width: 100%;
+    
+}
+.btn-primary{
+    display: flex;
+    text-align: right;
+}
 .container{
     display: flex;
     justify-content: center;
