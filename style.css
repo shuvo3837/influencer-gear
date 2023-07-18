@@ -64,9 +64,30 @@ ul{
 @media screen and (max-width: 576px) {
     .header{
         flex-direction: column;
+        margin: 0px;
     }
     .banner{
         flex-direction: column;
+        margin: 0px;
+    }
+}
+
+/* sponsor style */
+.sponsors{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin: 40px 70px;
+    padding: 20px;
+}
+
+/* responive for phone */
+@media screen and (max-width: 576px) {
+    .sponsors{
+        flex-direction: column;
+        gap: 30px;
+        margin: 10px;
     }
 }
 .container{
@@ -75,4 +96,11 @@ ul{
     gap: 100px;
     align-items: center;
     margin: 100px;
+}
+
+/* media query */
+@media screen and (max-width: 576px) {
+    .container{
+        flex-direction: column-reverse;
+    }
 }
